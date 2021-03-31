@@ -1,0 +1,12 @@
+{
+        "name": "greeter-bot",
+        "version": "0.0.1",
+        "description": "The whole squad is laughing with this one",
+        "main": "bot.js",
+        "author": "1ctinus",
+        "dependencies": {
+                "discord.io": "^2.5.3",
+                "discord.js": "^12.4.1",
+                "winston": "^3.3.3"
+        }
+}
