@@ -32,4 +32,6 @@ client.on('message', msg => {
     console.log(msg.author.username)
   }
 });
-client.login(fs.readFileSync("key"));
+const key = fs.readFileSync("key", "utf-8")
+console.log(key+"wha")
+client.login(key);
